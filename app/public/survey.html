@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Survey</title>
+</head>
+
+<body>
+    <div class="container" class="survey">
+        <div class="page-header">
+            <h1>Survey Questions</h1>
+        </div>
+        <h1 style="font-weight: bold;">About You</h1>
+        
+        <form method="post" class="form-inline" action="/api/addFriend">
+        <div class="form-group">
+            <h3>Name (Required)</h3>
+            <input name="name" type="text" class="form-control">
+            <h3>Link to Photo Image (Required)</h3>
+            <input name="photo" type="text" class="form-control">
+            <hr>
+        </div>
+            <div>
+                <h3 style="font-weight: bold;">Question 1</h3>
+                <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+                <select name="q1" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 2</h3>
+                <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+                <select name="q2" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 3</h3>
+                <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+                <select name="q3" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 4</h3>
+                <h4>You rarely do something just out of sheer curiosity.</h4>
+                <select name="q4" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 5</h3>
+                <h4>People can rarely upset you.</h4>
+                <select name="q5" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 6</h3>
+                <h4>It is often difficult for you to relate to other people's feelings.</h4>
+                <select name="q6" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 7</h3>
+                <h4>In a discussion, truth should be more important than people's sensitivities.</h4>
+                <select name="q7" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 8</h3>
+                <h4>You rarely get carried away by fantasies and ideas.</h4>
+                <select name="q8" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 9</h3>
+                <h4>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</h4>
+                <select name="q9" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <h3 style="font-weight: bold;">Question 10</h3>
+                <h4>You feel more energetic after spending time with a group of people.</h4>
+                <select name="q10" class="custom-select mb-2 mr-sm-2 mb-sm-0" style="padding-left: 5px; background-color: #D3D3D3; font-size: 18px; width: 200px;" id="inlineFormCustomSelect">
+                    <option selected>Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <button id="submit" type="submit" style="font-size: 25px;" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-ok-circle"></span> Submit</button>
+        </form>
+    </div>
+    <br>
+    <footer>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Priya1240/FriendFinder">GitHub Repo</a></p>
+    </footer>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close ">&times;</span>
+                <h2 class="friendName"></h2>
+                <!-- Trigger/Open The Modal -->
+            </div>
+            <div class="modal-body" id="friendImage">
+                ...
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <!--    <script type="text/javascript">
+    $("#submit").on("click", function({
+
+    }))
+    </script> -->
+</body>
+
+</html>

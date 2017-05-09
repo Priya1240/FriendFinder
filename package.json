@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "App that matches compatibility with others",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priya1240/FriendFinder.git"
+  },
+  "author": "Priya Iyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priya1240/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Priya1240/FriendFinder#readme"
+}
